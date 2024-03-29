@@ -1,5 +1,5 @@
 #!/bin/bash
-if [[ $GIT_BRANCH == "origin/dev" ]]; then
+if [[ $GIT_BRANCH == "dev" ]]; then
     echo "Building and pushing Docker image to dev repository in Docker Hub..."
         
     docker tag book:v1 paulinnancyjeniffer/dev:latest
